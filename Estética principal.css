@@ -17,7 +17,6 @@ html, body {
     height: 500px;
     margin: 0px;
     padding: 0px;
-    background-image: url(../Trabalho-pagina/03_Fotos_de_Capa/black.jpg);   
 }
 
 .container {
@@ -190,6 +189,7 @@ html, body {
 }
 
 #postit1 {
+    display: flex;
     width: 750px;
     height: 850px;
     top: 250px;
@@ -199,6 +199,7 @@ html, body {
 }
 
 #postit2 {
+    display: flex;
     width: 500px;
     height: 550px;
     top: 300px;
@@ -220,7 +221,7 @@ html, body {
     width: 140px;
     height: 180px;
     top: 810px;
-    left: 240px;
+    left: 110px;
     position: relative;
     float: left;
 }
@@ -229,7 +230,7 @@ html, body {
     width: 150px;
     height: 180px;
     top: 800px;
-    left: -70px;
+    left: -200px;
     position: relative;
     float: left;
 }
@@ -237,8 +238,8 @@ html, body {
 #albumsemana {
     width: 220px;
     height: 150px;
-    top: 840px;
-    left: 360px;
+    top: 650px;
+    left: 470px;
     position: relative;
     float: left;
 }
@@ -246,8 +247,16 @@ html, body {
 #post7 {
     width: 300px;
     height: 500px;
-    margin-top: 270px;
-    margin-left: 350px;
+    top: 110px;
+    left: 280px;
     position: relative;
+    float: left;
 }
 
+#ativis {
+    width: 120px;
+    height: 150px;
+    top: 5px;
+    left: 300px;
+    position: relative;  
+}
